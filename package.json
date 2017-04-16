@@ -1,0 +1,22 @@
+{
+  "name": "patchdeck",
+  "version": "1.0.0",
+  "description": "patching deck for musical generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathiedart/patchdeck.git"
+  },
+  "author": "Kathie Dart <npm@kathiedart.uk>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kathiedart/patchdeck/issues"
+  },
+  "homepage": "https://github.com/kathiedart/patchdeck#readme",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
+}
