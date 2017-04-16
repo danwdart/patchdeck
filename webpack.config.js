@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
     context: __dirname+'/js',
-    entry: ['bootstrap-loader', './src/index.js'],
+    entry: ['./src/index.js'],
     output: {
         path: __dirname+'./js',
         publicPath: '/js/',
