@@ -7,25 +7,31 @@
     <body>
         <main class="container-fluid">
             <div class="row">
-                <div class="col-5">
-                    <select id="selLeft" multiple>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                    </select>
+                <div class="col-12 text-center">
+                    <h1>Patch Deck</h1>
+                    <h2>Drag between inputs and outputs to connect</h2>
                 </div>
-                <div class="col-2">
-                </div>
-                <div class="col-5">
-                    <select id="selRight" multiple>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                        <option>Demo 1</option>
-                    </select>
+            </div>
+            <div class="row">
+                <div class="col-8 offset-2">
+                    <div class="row">
+                        <ul class="col-5 selectors form-control" id="selLeft">
+                            <li class="col-12" id="op1_1" draggable="true">Demo 1</li>
+                            <li class="col-12" id="op1_2" draggable="true">Demo 2</li>
+                            <li class="col-12" id="op1_3" draggable="true">Demo 3</li>
+                            <li class="col-12" id="op1_4" draggable="true">Demo 4</li>
+                            <li class="col-12" id="op1_5" draggable="true">Demo 5</li>
+                        </ul>
+                        <div class="col-2" id="lines">
+                        </div>
+                        <ul class="col-5 selectors form-control" id="selRight">
+                            <li class="col-12" id="op2_1" draggable="true">Demo 1</li>
+                            <li class="col-12" id="op2_2" draggable="true">Demo 2</li>
+                            <li class="col-12" id="op2_3" draggable="true">Demo 3</li>
+                            <li class="col-12" id="op2_4" draggable="true">Demo 4</li>
+                            <li class="col-12" id="op2_5" draggable="true">Demo 5</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </main>
