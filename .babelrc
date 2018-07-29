@@ -1,8 +1,7 @@
 {
-    "presets": [
-    ],
+    "presets": [],
     "plugins": [
-        "transform-es2015-modules-commonjs",
-        "transform-function-bind"
+        "@babel/plugin-transform-modules-commonjs",
+        "@babel/plugin-proposal-function-bind"
     ]
 }
