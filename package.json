@@ -22,19 +22,19 @@
   },
   "homepage": "https://github.com/danwdart/patchdeck#readme",
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.54",
-    "@babel/plugin-proposal-function-bind": "7.0.0-beta.54",
-    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.54",
+    "@babel/core": "7.0.0-beta.55",
+    "@babel/plugin-proposal-function-bind": "7.0.0-beta.55",
+    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.55",
     "babel-loader": "^8.0.0-beta.0",
     "bootstrap": "^4.1.1",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "http-server": "^0.11.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
-    "style-loader": "^0.20.1",
-    "url-loader": "^0.6.2",
-    "webpack": "^3.12.0"
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.3"
   },
   "snyk": true,
   "dependencies": {
