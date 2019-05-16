@@ -3,13 +3,13 @@ import '../../css/src/index.css';
 
 $('.selectors li').on('dragstart', ev => {
     console.log(ev);
-    ev.originalEvent.dataTransfer.setData("text/plain", ev.target.id);
-    ev.originalEvent.dataTransfer.dropEffect = "link";
+    ev.originalEvent.dataTransfer.setData('text/plain', ev.target.id);
+    ev.originalEvent.dataTransfer.dropEffect = 'link';
 });
-$('.selectors li').on('dragover', ev => {
-    console.log(`dragover`)
+$('.selectors li').on('dragover', () => {
+    console.log('dragover');
 });
-$('.selectors li').on('drop', ev => {
+$('.selectors li').on('drop', () => {
 
 });
 $('.selectors li').on('dragenter', ev => {

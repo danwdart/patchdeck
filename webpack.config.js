@@ -9,7 +9,7 @@ module.exports = {
         filename: "index.js"
     },
     module: {
-        loaders: [
+        rules: [
             { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
             { test: /\.css$/, loader: "style-loader!css-loader" },
             { test: /\.woff2?/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
