@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/danwdart/patchdeck#readme",
   "devDependencies": {
-    "@babel/core": "7.7.5",
+    "@babel/core": "7.7.7",
     "@babel/plugin-proposal-function-bind": "7.7.4",
     "@babel/plugin-transform-modules-commonjs": "7.7.5",
     "babel-loader": "^8.0.6",
