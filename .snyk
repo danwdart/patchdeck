@@ -1,9 +1,35 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:qs:20170213':
     - http-server > union > qs:
         reason: None given
         expires: '2018-03-16T10:44:49.746Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
+    - eslint > lodash:
+        patched: '2020-05-01T03:02:32.674Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T03:02:32.674Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T03:02:32.674Z'
+    - webpack-cli > webpack-merge > lodash:
+        patched: '2020-05-01T03:02:32.674Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
+    - http-server > portfinder > async > lodash:
+        patched: '2020-05-01T03:02:32.674Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-05-01T03:02:32.674Z'
