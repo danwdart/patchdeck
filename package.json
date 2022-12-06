@@ -28,7 +28,7 @@
     "babel-loader": "^9.1.0",
     "bootstrap": "^5.2.3",
     "css-loader": "^6.7.2",
-    "eslint": "^8.28.0",
+    "eslint": "^8.29.0",
     "file-loader": "^6.2.0",
     "http-server": "^14.1.1",
     "jquery": "^3.6.1",
@@ -37,7 +37,7 @@
     "url-loader": "^2.0.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
+    "webpack-cli": "^5.0.1"
   },
   "snyk": true,
   "dependencies": {
